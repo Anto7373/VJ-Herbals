@@ -117,27 +117,27 @@
 					
 					
 					
-					<form id="form">
+					<form action="contact_form.php" method="post" id="form">
 				<h2 style="padding-top:12px;">Contact Form</h2>
 				 <p id="returnmessage"></p>
                                 <hr><br>
-                                <label>Name: <span>*</span></label>
+                 <label>Name: <span>*</span></label>
 				<br>
-				<input type="text" id="name" placeholder="Name"><br>
+				<input type="text" id="name" name="name" placeholder="Name"><br>
 				<br>
 				<label>Email: <span>*</span></label>
 				<br>
-				<input type="text" id="email" placeholder="Email"><br>
+				<input type="text" id="email" name="email" placeholder="Email"><br>
 				<br>
 				<label>Mobile Number: <span>*</span></label>
 				<br>
-                                <input type="text" id="contact" placeholder="Mobile Number"><br>
+                                <input type="text" id="contact" name="mob_number" placeholder="Mobile Number"><br>
 				<br>
 				<label>Message:</label>
 				<br>				
-                                <textarea id="message" placeholder="Message"></textarea><br>
+                                <textarea id="message" name="message" placeholder="Message"></textarea><br>
 				<br>
-				<input type="button" id="submit" value="Send Message">
+				<input type="button" id="submit" name="submit" value="Send_Message">
                                 <br>
             	</form><!-- contact-form -->
 				</div><!-- contact-info-wrapper -->
